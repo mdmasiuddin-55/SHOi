@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - SHOi Bengali Theatre & Art Community</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fas fa-theater-masks" style="color: var(--primary); font-size: 2rem;"></i>
+                    <h1>SHO<span>i</span></h1>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="shows.html">Shows</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Hero Section -->
+    <section class="hero" style="height: 60vh; background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1579093721051-5f88695e0901?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Gallery</h1>
+                <p>A visual journey through our performances, rehearsals, and community events</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter Section -->
+    <section id="gallery-filter">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Memories</h2>
+                <p>Relive the magic of our performances and behind-the-scenes moments</p>
+            </div>
+            
+            <div class="filter-buttons" style="text-align: center; margin-bottom: 40px;">
+                <button class="btn filter-btn active" data-filter="all">All</button>
+                <button class="btn filter-btn" data-filter="performances">Performances</button>
+                <button class="btn filter-btn" data-filter="rehearsals">Rehearsals</button>
+                <button class="btn filter-btn" data-filter="workshops">Workshops</button>
+                <button class="btn filter-btn" data-filter="events">Community Events</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform1.jpg" alt="Performance 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Nijeke Harano Ferowala</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform2.jpg" alt="Performance 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform3.jpg" alt="Performance 3">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform4.jpg" alt="Performance 4">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform5.jpg" alt="Performance 5">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/p7.jpg" alt="Performance 6">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="performances">
+                    <img src="./images/perform2.jpg" alt="Performance 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Chhayachobi</h4>
+                            <p>Bangalore, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="rehearsals">
+                    <img src="./images/re2.jpg" alt="Rehearsal 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Script Reading</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                <div class="gallery-item" data-category="rehearsals">
+                    <img src="./images/re3.jpg" alt="Rehearsal 3">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Script Reading</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                </div>
+                <div class="gallery-item" data-category="rehearsals">
+                    <img src="./images/re4.jpg" alt="Rehearsal 4">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Script Reading</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                <div class="gallery-item" data-category="rehearsals">
+                    <img src="./images/re5.jpg" alt="Rehearsal 5">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Script Reading</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                 </div>
+                 <div class="gallery-item" data-category="rehearsals">
+                    <img src="./images/re6.jpg" alt="Rehearsal ">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Script Reading</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+            </div>    
+                <div class="gallery-item" data-category="workshops">
+                    <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Workshop 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Acting Workshop</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1579093721051-5f88695e0901?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Community Event 1">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Poetry Evening</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="performances">
+                    <img src="https://images.unsplash.com/photo-1579102381975-e8e6430e2435?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Performance 3">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Ekannoborti</h4>
+                            <p>Kolkata, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="rehearsals">
+                    <img src="https://images.unsplash.com/photo-1542327897-d73f4005b533?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="Rehearsal 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Dress Rehearsal</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1514306191717-452ec28c7814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Community Event 2">
+                    <div class="gallery-overlay">
+                        <div class="gallery-caption">
+                            <h4>Annual Meet</h4>
+                            <p>Hyderabad, 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="shows">
+        <div class="container">
+            <div class="section-title">
+                <h2>Performance Highlights</h2>
+                <p>Watch snippets from our most memorable performances</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Experience SHOi on Stage</h3>
+                    <p>While photos capture moments, videos bring our performances to life. Here are some highlights from our recent shows that showcase the energy, emotion, and artistry of SHOi productions.</p>
+                    <p>From powerful monologues to ensemble pieces, these videos offer a glimpse into the world of Bengali theatre that we create and share with our audiences.</p>
+                    <a href="contact.html" class="btn">Attend Our Next Show</a>
+                </div>
+                <div class="about-image">
+                    <div style="background: #f5f5f5; height: 100%; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                        <div style="text-align: center; padding: 20px;">
+                            <i class="fas fa-play-circle" style="font-size: 4rem; color: var(--primary); margin-bottom: 15px;"></i>
+                            <h3>Performance Videos</h3>
+                            <p>Visit our YouTube channel to watch full performance clips and behind-the-scenes content.</p>
+                            <a href="https://www.youtube.com/watch?v=1wQ-iciCZk4&pp=ygUOc2hvaSBoWURFUkFCQUQ%3Dreadrdffccfgvvah vnh ym ," class="btn" style="margin-top: 15px;">Visit YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SHOi Theatre</h3>
+                    <p>Hyderabad's premier Bengali theatre and art community, bringing together artists and enthusiasts to celebrate Bengali culture through live performances and creative expression.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="shows.html">Upcoming Shows</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Upcoming Shows</h3>
+                    <ul class="footer-links">
+                        <li><a href="shows.html">Nijeke Harano Ferowala - Hyderabad</a></li>
+                        <li><a href="shows.html">Chhayachobi - Bangalore</a></li>
+                        <li><a href="shows.html">Ekannoborti - Kolkata</a></li>
+                        <li><a href="shows.html">Bhalobasha Bhalobasha - Hyderabad</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to get updates on upcoming shows and events.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 SHOi Bengali Theatre & Art Community. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+    <script>
+        // Gallery Filter Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const galleryItems = document.querySelectorAll('.gallery-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    galleryItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
